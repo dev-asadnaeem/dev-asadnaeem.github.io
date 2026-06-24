@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Naeem | MERN Stack Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("3QuX8btTaQ5nWIoYn");
+        })();
+    </script>
+</head>
+<body class="dark-theme">
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Asad<span>.Naeem</span></a>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="https://github.com/dev-asadnaeem" target="_blank" class="btn-icon-only" style="width: 38px; height: 38px; font-size: 1rem;" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/asadnaeemdeveloper" target="_blank" class="btn-icon-only" style="width: 38px; height: 38px; font-size: 1rem;" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="Asad_Resume (1).pdf" class="btn btn-secondary btn-sm" download>
+                    <i class="fa-solid fa-download"></i> Resume
+                </a>
+                <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">MERN STACK DEVELOPER</span>
+                    <h1 class="hero-title">Hi, I'm <span class="text-gradient">Asad Naeem</span></h1>
+                    <h2 class="hero-typing">I build <span id="typing-text"></span></h2>
+                    <p class="hero-description">
+                        A passionate Computer Science graduate specialized in building robust, scalable, and user-centric web applications using MongoDB, Express.js, React.js, and Node.js.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-outline">View My Work</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="image-border-glow"></div>
+                    <div class="hero-image-container">
+                        <img src="17604381743261.jpg" alt="Asad Naeem" class="hero-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="header-bar"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-info card">
+                        <h3>Professional Summary</h3>
+                        <p>
+                            Computer Science graduate with hands-on experience in software development, database management, and MERN Stack development. Skilled at analyzing complex problems, writing clean and maintainable code, learning new technologies quickly, and collaborating effectively to develop reliable, efficient, and user-focused software solutions.
+                        </p>
+                        <div class="personal-details">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div>
+                                    <h4>Education</h4>
+                                    <p>BS Computer Science (COMSATS University Islamabad)</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Lahore, Pakistan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-skills card">
+                        <h3>Core Qualities</h3>
+                        <div class="soft-skills-tags">
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Problem Solving</span>
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Analytical Thinking</span>
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Team Collaboration</span>
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Adaptability</span>
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Time Management</span>
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Attention to Detail</span>
+                            <span class="tag"><i class="fa-solid fa-check-circle"></i> Critical Thinking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">What I work with</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="header-bar"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category card">
+                        <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Languages</h3>
+                        <ul class="skill-list">
+                            <li><span>JavaScript</span><div class="progress-bar"><div class="progress" style="width: 90%;"></div></div></li>
+                            <li><span>Python</span><div class="progress-bar"><div class="progress" style="width: 75%;"></div></div></li>
+                            <li><span>C++</span><div class="progress-bar"><div class="progress" style="width: 80%;"></div></div></li>
+                        </ul>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-category card">
+                        <div class="category-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Web Development</h3>
+                        <ul class="skill-list">
+                            <li><span>React.js</span><div class="progress-bar"><div class="progress" style="width: 88%;"></div></div></li>
+                            <li><span>Node.js</span><div class="progress-bar"><div class="progress" style="width: 85%;"></div></div></li>
+                            <li><span>Express.js</span><div class="progress-bar"><div class="progress" style="width: 85%;"></div></div></li>
+                            <li><span>HTML & CSS</span><div class="progress-bar"><div class="progress" style="width: 95%;"></div></div></li>
+                        </ul>
+                    </div>
+
+                    <!-- Databases & Concepts -->
+                    <div class="skill-category card">
+                        <div class="category-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Databases & Infrastructure</h3>
+                        <ul class="skill-list">
+                            <li><span>MongoDB</span><div class="progress-bar"><div class="progress" style="width: 85%;"></div></div></li>
+                            <li><span>MySQL / PostgreSQL</span><div class="progress-bar"><div class="progress" style="width: 80%;"></div></div></li>
+                            <li><span>Redis (Caching)</span><div class="progress-bar"><div class="progress" style="width: 70%;"></div></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">My Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="header-bar"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card card">
+                        <div class="project-badge">FYP Project</div>
+                        <div class="project-info">
+                            <span class="project-meta">MERN Stack, Redis, Zod</span>
+                            <h3>Counsel-X</h3>
+                            <p>A scalable, multi-role counseling platform featuring comprehensive dashboards for Students, Counselors, and Administrators, with real-time video calls and chats.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/fa22-bcs-013-cloud/Counsel-X.git" target="_blank" class="btn btn-icon-only" aria-label="GitHub Repository">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card card">
+                        <div class="project-badge">Academic Project</div>
+                        <div class="project-info">
+                            <span class="project-meta">Node.js, Express, MongoDB, EJS</span>
+                            <h3>Restaurant MS</h3>
+                            <p>A Restaurant Management System built with a clean Model-View-Controller (MVC) architecture, secure JWT token-based authentication, and dynamic server-side rendering.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/dev-asadnaeem/RestorentManagementSystem.git" target="_blank" class="btn btn-icon-only" aria-label="GitHub Repository">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card card">
+                        <div class="project-badge">Academic Project</div>
+                        <div class="project-info">
+                            <span class="project-meta">React.js, Node.js, Express, MongoDB, JWT</span>
+                            <h3>Event Registration</h3>
+                            <p>Full-stack event management and user registration system. Implements secure JWT auth with protected routes and role-based permissions for users and events.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/dev-asadnaeem/Event-Registration-System-MERN.git" target="_blank" class="btn btn-icon-only" aria-label="GitHub Repository">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Let's talk</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="header-bar"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <div class="info-card card">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email Me</h4>
+                                <a href="mailto:asadnaeem0255@gmail.com">asadnaeem0255@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-card card">
+                            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Call Me</h4>
+                                <a href="tel:+923002551655">+92-300-2551655</a>
+                            </div>
+                        </div>
+                        <div class="info-card card">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-card card">
+                            <div class="info-icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/asadnaeemdeveloper" target="_blank">asadnaeemdeveloper</a>
+                            </div>
+                        </div>
+                        <div class="info-card card">
+                            <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/dev-asadnaeem" target="_blank">dev-asadnaeem</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel card">
+                        <form id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="from_name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="from_email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Discussion" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Let's build something great..." required></textarea>
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Asad Naeem. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/asadnaeemdeveloper" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/dev-asadnaeem" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:asadnaeem0255@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
